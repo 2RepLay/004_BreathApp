@@ -11,6 +11,8 @@
 		118C198D28DA5F2B001F2DCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118C198C28DA5F2B001F2DCB /* ContentView.swift */; };
 		118C198F28DA5F2D001F2DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118C198E28DA5F2D001F2DCB /* Assets.xcassets */; };
 		118C199228DA5F2D001F2DCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118C199128DA5F2D001F2DCB /* Preview Assets.xcassets */; };
+		118C199B28DA5F42001F2DCB /* BreathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118C199A28DA5F42001F2DCB /* BreathType.swift */; };
+		118C199F28DA5FCB001F2DCB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118C199E28DA5FCB001F2DCB /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		118C198C28DA5F2B001F2DCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		118C198E28DA5F2D001F2DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118C199128DA5F2D001F2DCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		118C199A28DA5F42001F2DCB /* BreathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathType.swift; sourceTree = "<group>"; };
+		118C199E28DA5FCB001F2DCB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		118C198928DA5F2B001F2DCB /* 004_BreathApp */ = {
 			isa = PBXGroup;
 			children = (
+				118C199928DA5F38001F2DCB /* Model */,
+				118C199828DA5F35001F2DCB /* View */,
 				118C198A28DA5F2B001F2DCB /* _04_BreathAppApp.swift */,
 				118C198C28DA5F2B001F2DCB /* ContentView.swift */,
 				118C198E28DA5F2D001F2DCB /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				118C199128DA5F2D001F2DCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		118C199828DA5F35001F2DCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				118C199E28DA5FCB001F2DCB /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		118C199928DA5F38001F2DCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				118C199A28DA5F42001F2DCB /* BreathType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			files = (
 				118C198D28DA5F2B001F2DCB /* ContentView.swift in Sources */,
 				118C198B28DA5F2B001F2DCB /* _04_BreathAppApp.swift in Sources */,
+				118C199F28DA5FCB001F2DCB /* Home.swift in Sources */,
+				118C199B28DA5F42001F2DCB /* BreathType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
